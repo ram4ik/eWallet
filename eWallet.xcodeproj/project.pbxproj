@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52AEB5CC2C8302CD001269AE /* Row2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB5CB2C8302CA001269AE /* Row2.swift */; };
+		52AEB5CE2C8302EE001269AE /* Row1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB5CD2C8302EB001269AE /* Row1.swift */; };
+		52AEB5D02C830317001269AE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB5CF2C830315001269AE /* Home.swift */; };
 		957767B5240D4D510030F58B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957767B4240D4D510030F58B /* AppDelegate.swift */; };
 		957767B7240D4D510030F58B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957767B6240D4D510030F58B /* SceneDelegate.swift */; };
 		957767B9240D4D510030F58B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957767B8240D4D510030F58B /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52AEB5CB2C8302CA001269AE /* Row2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row2.swift; sourceTree = "<group>"; };
+		52AEB5CD2C8302EB001269AE /* Row1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row1.swift; sourceTree = "<group>"; };
+		52AEB5CF2C830315001269AE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		957767B1240D4D510030F58B /* eWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957767B4240D4D510030F58B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		957767B6240D4D510030F58B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52AEB5D12C8303C7001269AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AEB5CF2C830315001269AE /* Home.swift */,
+				52AEB5CD2C8302EB001269AE /* Row1.swift */,
+				52AEB5CB2C8302CA001269AE /* Row2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		957767A8240D4D510030F58B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,7 @@
 		957767B3240D4D510030F58B /* eWallet */ = {
 			isa = PBXGroup;
 			children = (
+				52AEB5D12C8303C7001269AE /* Views */,
 				957767B4240D4D510030F58B /* AppDelegate.swift */,
 				957767B6240D4D510030F58B /* SceneDelegate.swift */,
 				957767B8240D4D510030F58B /* ContentView.swift */,
@@ -149,6 +166,9 @@
 				957767B5240D4D510030F58B /* AppDelegate.swift in Sources */,
 				957767B7240D4D510030F58B /* SceneDelegate.swift in Sources */,
 				957767B9240D4D510030F58B /* ContentView.swift in Sources */,
+				52AEB5CE2C8302EE001269AE /* Row1.swift in Sources */,
+				52AEB5D02C830317001269AE /* Home.swift in Sources */,
+				52AEB5CC2C8302CD001269AE /* Row2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
